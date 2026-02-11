@@ -46,10 +46,6 @@ VTU Connect is a high-performance, terminal-themed web application for Virtual T
 
 3. Open [http://localhost:3000](http://localhost:3000) in your carrier-grade browser.
 
-## 📡 API Integration
-
-The application connects to a robust backend hosted on Railway:
-`https://vtu-backend-project-production-1ae7.up.railway.app/api`
 
 ## 🖥️ Terminal Usage
 
