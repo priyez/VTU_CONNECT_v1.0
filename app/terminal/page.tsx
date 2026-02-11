@@ -459,7 +459,7 @@ export default function TerminalPage() {
                             scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
                         }
                     }}
-                    className="flex-1 bg-transparent border-none outline-none text-foreground text-sm font-mono placeholder:text-foreground/20"
+                    className="flex-1 bg-transparent border-none outline-none text-foreground text-base font-mono placeholder:text-foreground/20"
                     placeholder={loading ? "LOCKED" : "ENTER_VAL..."}
                     disabled={loading}
                     spellCheck={false}
