@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VTU Connect - Terminal Edition
 
-## Getting Started
+VTU Connect is a high-performance, terminal-themed web application for Virtual Top-Up (VTU) services. It provides a sleek, retro-themed interface for purchasing mobile data, airtime, and electricity tokens with zero latency.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Interactive Terminal Subsystem**: A fully functional command-line interface (CLI) for power users.
+  - Commands: `DATA`, `AIRTIME`, `ELECT`, `LOGIN`, `SIGNUP`, `BALANCE`, `CLEAR`, `HELP`.
+  - Multi-step interactive flows with password masking.
+  - Persistent sessions within the terminal environment.
+- **Graphical Dashboard**: A neubrutalist/retro-themed dashboard for managing services and wallet resources.
+- **Service Support**:
+  - **Data**: Support for major networks (MTN, GLO, Airtel, 9mobile).
+  - **Airtime**: Rapid voice credit allocation.
+  - **Electricity**: Grid power token injection for various DISCOs (Ikeja, Eko, Abuja, etc.).
+- **Wallet & Security**: Secure user authentication and real-time wallet balance synchronization.
+- **Transaction Logs**: Detailed history of all operations with status markers and reference tracking.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js 15+](https://nextjs.org/) (App Router)
+- **Library**: [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **API Integration**: Custom resilient Fetch-based API client.
 
-## Learn More
+## 📦 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+### Prerequisites
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Node.js 18.x or higher
+- npm or yarn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Installation
 
-## Deploy on Vercel
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Open [http://localhost:3000](http://localhost:3000) in your carrier-grade browser.
+
+## 📡 API Integration
+
+The application connects to a robust backend hosted on Railway:
+`https://vtu-backend-project-production-1ae7.up.railway.app/api`
+
+## 🖥️ Terminal Usage
+
+Access the terminal via the `RUN_TERMINAL` prompt on the homepage or the `TERMINAL_PROMPT` in the dashboard sidebar.
+
+Type `HELP` for a list of all available kernel commands.
+
+---
+**VTU_CONNECT_KERNEL v1.0.4-STABLE**
+*ESTABLISHING SECURE ENCLAVE... ACCESS_GRANTED*
