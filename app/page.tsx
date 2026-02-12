@@ -32,6 +32,7 @@ export default function Home() {
           </h2>
         </div>
 
+
         <p className="text-sm md:text-base text-foreground/60 mb-12 max-w-2xl leading-relaxed uppercase tracking-wider">
           The ultimate terminal interface for mobile data, voice (airtime), and electricity tokens.
           High-speed transaction kernels. Zero-latency delivery.
@@ -52,7 +53,7 @@ export default function Home() {
 
         {/* Console stats decoration */}
         <div className="mt-20 flex space-x-8 text-[9px] text-foreground/30 uppercase tracking-[0.3em] font-bold">
-          <span>{">"} UPTIME: 99.98%</span>
+          <span>{">"} UPTIME: 95.00%</span>
           <span>{">"} NODES: 2,451</span>
           <span>{">"} SEC: AES-256</span>
         </div>
