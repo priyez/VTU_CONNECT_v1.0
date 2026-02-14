@@ -1,5 +1,6 @@
 "use client";
 
+
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export async function apiRequest(endpoint: string, options: RequestInit = {}) {
